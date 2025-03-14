@@ -24,7 +24,15 @@ A Rails application that automatically sends birthday messages to users at 9 AM 
 - [x] Recovery system for missed messages during downtime
 - [x] Prevention of duplicate messages through logging
 - [x] Scalable job processing with Sidekiq
-- [x] Comprehensive test coverage
+## Future Improvements
+- [ ] Comprehensive test coverage
+- [ ] Add support for different types of messages (anniversary, promotion notifications)
+- [ ] Implement message templates and customization options
+- [ ] Add metrics and monitoring for message delivery rates
+- [ ] Add pagination and filtering to the API endpoints
+- [ ] Implement rate limiting to prevent API abuse
+- [ ] Implement user preferences for delivery times and opt-out options
+- [ ] Add internationalization support for messages in multiple languages
 
 ## Setup Instructions
 
@@ -133,17 +141,6 @@ curl --location --request PUT 'http://localhost:3000/users/51' \
 curl -X DELETE "http://your-api.com/users/123" -H "Content-Type: application/json"
 ```
 
-## Future Improvements
-- [ ] Add support for different types of messages (anniversary, promotion notifications)
-- [ ] Implement message templates and customization options
-- [ ] Add metrics and monitoring for message delivery rates
-- [ ] Create an admin dashboard for message management
-- [ ] Add pagination and filtering to the API endpoints
-- [ ] Implement rate limiting to prevent API abuse
-- [ ] Add webhook configuration for multiple delivery channels
-- [ ] Improve error handling with automatic retries and exponential backoff
-- [ ] Implement user preferences for delivery times and opt-out options
-- [ ] Add internationalization support for messages in multiple languages
 
 
 ### Running Tests
