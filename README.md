@@ -37,10 +37,11 @@ A Rails application that automatically sends birthday messages to users at 9 AM 
 ## Setup Instructions
 
 ### Prerequisites
-
-- Ruby 3.2.2
-- Rails 7.0.8
-- PostgreSQL
+- Ruby 3.4.2
+- Rails 8.0.1
+- SQlite
+   - Why? Its simplicity makes it ideal for development and testing, reducing setup time and overhead while still fulfilling the test requirements.
+   - For production or larger-scale systems requiring high concurrency, complex queries, or robust data integrity, PostgreSQL would be a better choice.
 - Redis (for Sidekiq)
 
 ### Installation
