@@ -1,4 +1,6 @@
-# Birthday Message Sender
+# Happy9AM Birthday Wisher
+A Ruby on Rails application that automatically sends delightful birthday messages to users at 9:00 AM in their local timezone. With reliable scheduling, missed message recovery, and user-friendly APIs, Happy9AM ensures no birthday goes uncelebrated!
+
 
 A Rails application that automatically sends birthday messages to users at 9 AM in their local timezone. The system ensures reliability by handling timezone differences and includes recovery mechanisms for service interruptions.
 ### 🚀 Execution Flow Summary
