@@ -127,7 +127,7 @@ curl --location 'http://localhost:3000/users' \
 ```
 
 ### Update User
-```
+```shell
 curl --location --request PUT 'http://localhost:3000/users/51' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -139,7 +139,7 @@ curl --location --request PUT 'http://localhost:3000/users/51' \
 ```
 
 ### Delete User
-```
+```shell
 curl -X DELETE "http://your-api.com/users/123" -H "Content-Type: application/json"
 ```
 
