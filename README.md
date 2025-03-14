@@ -50,8 +50,7 @@ A Rails application that automatically sends birthday messages to users at 9 AM 
 
 1. Clone the repository:
    ```bash
-   https://github.com/lily-vu-goldenowl/happy9am-birthday-app-test.git
-   cd happy9am-birthday-app-test.git
+    git clone https://github.com/lily-vu-goldenowl/happy9am-birthday-app-test.git && cd happy9am-birthday-app-test
    ```
 
 2. Install dependencies:
