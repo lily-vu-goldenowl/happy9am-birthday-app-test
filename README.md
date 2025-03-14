@@ -115,7 +115,7 @@ sample output:
 
 ### Create User
 ```shell
-curl --location 'http://localhost:3000/users' \
+curl --location '{API_ENDPOINT}/users' \
 --header 'Content-Type: application/json' \
 --data '{
            "user": {
@@ -129,7 +129,7 @@ curl --location 'http://localhost:3000/users' \
 
 ### Update User
 ```shell
-curl --location --request PUT 'http://localhost:3000/users/51' \
+curl --location --request PUT '{API_ENDPOINT}/users/51' \
 --header 'Content-Type: application/json' \
 --data '{
            "user": {
@@ -141,7 +141,7 @@ curl --location --request PUT 'http://localhost:3000/users/51' \
 
 ### Delete User
 ```shell
-curl -X DELETE "http://your-api.com/users/123" -H "Content-Type: application/json"
+curl -X DELETE "{API_ENDPOINT}/users/123" -H "Content-Type: application/json"
 ```
 
 
